@@ -1,0 +1,93 @@
+body{
+	background-color: #121212;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button{
+	text-transform: uppercase;
+	font-weight: 800;
+	height: 100%;
+	color: steelblue;
+	border-style: none;
+	letter-spacing: 1px;
+	outline: none;
+}
+
+
+button:hover{
+	background-color: steelblue;
+	color: rgb(230,230,230);
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+}
+
+h3{
+	margin: 20px auto;
+	font-size: 0.7em;
+}
+
+
+.selected{
+	background-color: steelblue;
+	color: rgb(230,230,230);
+}
+
+.box{
+	float:left;
+	padding-bottom: 30%;
+	width: 30%;
+	margin:1.66%;
+	border-radius: 20%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+
+#rgb{
+	font-size: 200%;
+	letter-spacing: 4px;
+}
+
+
+#uBar{
+	margin: 0;
+	padding: 15px 0;
+	background-color: steelblue;
+	color: rgb(230,230,230);
+	text-align: center;
+	line-height: 1.1;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: normal;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	min-width: 328px;
+}
+
+
+#container{
+	max-width: 600px;
+	margin: 10px auto 0 auto;
+	min-width: 328px;
+}
+
+#bar{
+	margin:0;
+	padding: auto 45%;
+	text-align: center;
+	background-color: rgb(230,230,230);
+	min-width: 328px;
+
+}
+
+#msg{
+	display: inline-block;
+	width: 20%;
+	color: steelblue;
+	text-align: center;
+	font-size: 1em;
+}
